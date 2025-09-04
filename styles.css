@@ -1,0 +1,482 @@
+html, body {
+    background-color: rgb(213, 195, 171);
+    scroll-behavior: smooth;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+}
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    flex: 1;
+}
+.hero {
+    background-color: rgb(213, 195, 171);
+    height: 85vh;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    flex: 2;
+    justify-content: center;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+.nav-links li {
+    display: flex;
+    align-items: center;
+}
+.nav-links li a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 900;
+    transition: color 0.3s;
+    color: white;
+}
+.nav-links li a:hover {
+    color: #d2691e
+}
+.hamburger {
+    display: none;
+    font-size: 1.8rem;
+    cursor: pointer;
+    color: wheat;
+}
+.hero-overlay {
+    background-image: url(./images/1.jpg);
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero-content {
+    color: white;
+    /* text-align: left; */
+    padding: 2rem;
+    font-size: 2rem;
+}
+.top-order-button {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+.beverage-icons img {
+    width: 50px;
+}
+.beverage-icons {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 14rem;
+}
+.beverage-names {
+    text-align: center;
+    margin-top: 0.5rem;
+}
+li {
+    list-style: none;
+}
+li:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s;
+}
+.coffee-header, .dessert-header {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    display: block;
+    width: 100%;
+}
+.specials {
+    background-color: rgb(255, 255, 254);
+}
+.special-coffees, .special-desserts {
+    text-align: center;
+    padding: 1rem;
+}
+.list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem;
+    align-items: stretch;
+}
+.coffee-header {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.special-coffees {
+    text-align: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+.special-coffees img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin: 0 auto;
+    object-fit: cover;
+    display: block;
+}
+.special-desserts {
+    text-align: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+.special-desserts img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin: 0 auto;
+    object-fit: cover;
+    display: block;
+}
+.name {
+    font-weight: bold;
+    margin: 0.5rem 0;
+}
+.price-order {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+}
+.price {
+    font-weight: 600;
+    margin: 0.5rem 0;
+}
+.order-button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.order-button:hover {
+    background-color: rgb(155, 93, 93);
+}
+.type {
+    background-color: rgba(245, 212, 171, 0.44);
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 1rem;
+    flex: 1 1 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.type:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s;
+}
+.banner {
+    background-image: url(./images/coffeebeans2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2rem;
+    text-align: left;
+    color: brown;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.banner-content {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    font-size: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.explore-button {
+    background-color: rgb(50, 37, 37);
+    color: white;
+    font-size: 1rem;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 50px;
+}
+.explore-button:hover {
+    background-color: rgb(155, 93, 93);
+    transform: scale(1.1);
+    transition: transform 0.5s;
+}
+.customer-reviews {
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding: 2rem;
+}
+.customer-reviews-content {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+.italic-text {
+    font-family: "Dancing Script", cursive;
+    font-style: italic;
+    font-size: 2rem;
+}
+.customer-text {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.customer-review{ 
+    font-style: italic;
+    font-size: 0.95rem;
+    color: #444;
+}
+.customer-card img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+.customer-name {
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+.customer-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin: 1rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1 1 300px;
+    max-width: 350px;
+    min-height: 350px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.fade-in {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.fade-in.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+.banner-2 {
+    background-image: url(./images/coffeebeans3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: wheat;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    display: flex;
+}
+.banner-2-content {
+    max-width: 600px;
+}
+.banner-2-header-text {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: wheat;
+}
+.banner-2-text {
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 2rem;
+}
+.input-icon {
+    position: relative;
+    display: inline-block;
+}
+.input-icon i {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: wheat;
+}
+.input-icon input {
+    padding: 0 1rem 0 2.5rem;
+    height: 40px;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+.subscription {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 1rem;
+}
+.subscribe {
+    background-color: rgb(105, 49, 49);
+    color: wheat;
+    border: none;
+    padding: 0 1.5rem;
+    margin-left: 0.5rem;
+    cursor: pointer;
+    border-radius: 30px;
+    height: 40px;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+}
+.subscribe:hover {
+    background: wheat;
+    color: rgb(105, 49, 49);
+}
+.footer {
+    background-color: #2b1e16;
+    color: wheat;
+    padding: 2rem 1rem;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.footer-column {
+    flex: 1 1 150px;
+    margin: 1rem;
+}
+.footer-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.footer-column h4 {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    color: wheat;
+}
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+.footer-column ul li {
+    margin: 0.5rem 0;
+}
+.footer-column ul li a {
+    text-decoration: none;
+    color: wheat;
+    transition: color 0.3s;
+}
+footer-column ul li a:hover {
+    color: #d2691e;
+}
+.footer-column.social a {
+    font-size: 1.2rem;
+    transition: color 0.3s;
+    margin-right: 10px;
+}
+.footer-column.social i {
+    color: wheat;
+}
+.footer-column.social a:hover {
+    color: wheat;
+}
+@media (max-width: 1024px) {
+    body {
+        overflow-x: hidden;
+    }
+  .beverage-icons {
+    gap: 5rem;
+  }
+}
+@media (max-width: 768px) {
+  .nav-links {
+    position: fixed;              /* Stick to the screen */
+    top: 70px;                    /* Below header */
+    right: 0;
+    height: calc(100% - 70px);    /* Full height minus header */
+    width: 200px;
+    flex-direction: column;
+    background-color: rgb(50, 37, 37);
+    text-align: center;
+    padding: 1rem 0;
+    border-radius: 8px 0 0 8px;
+    transform: translateX(100%);  /* Hidden off-screen */
+    transition: transform 0.3s ease-in-out;
+    z-index: 1000;
+  }
+
+  .nav-links.active {
+    transform: translateX(0);     /* Slide in */
+  }
+
+  .hamburger {
+    display: block;
+    z-index: 1100;                /* Always above nav */
+  }
+}
+
+/* Very Small Devices */
+@media (max-width: 480px) {
+    body {
+        overflow-x: hidden;
+    }
+  .hero-content {
+    font-size: 1.2rem;
+    padding: 1rem;
+  }
+
+  .special-coffees img,
+  .special-desserts img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .banner-2-text {
+    font-size: 1.1rem;
+    padding: 1rem;
+  }
+
+  .input-icon input {
+    max-width: 200px;
+  }
+
+  .subscribe {
+    max-width: 120px;
+    font-size: 0.9rem;
+  }
+}

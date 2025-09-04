@@ -82,13 +82,22 @@ header nav {
 }
 .beverage-icons {
     display: flex;
-    text-align: center;
+    flex-wrap: nowrap;
+    align-items: center;
     justify-content: center;
-    gap: 14rem;
+    gap: 6rem;
+    padding: 1rem;
+}
+.beverage-icons li {
+    list-style: none;
+    text-align: center;
+    flex: 1 1 120px;
+    max-width: 150px;
 }
 .beverage-names {
     text-align: center;
     margin-top: 0.5rem;
+    font-size: 1rem;
 }
 li {
     list-style: none;
@@ -443,6 +452,15 @@ footer-column ul li a:hover {
   .nav-links.active {
     transform: translateX(0);     /* Slide in */
   }
+  .beverage-icons {
+    gap: 3rem;
+  }
+  .beverage-icons img {
+    width: 40px;
+  }
+  .beverage-names {
+    font-size: 0.9rem;
+  }
 
   .hamburger {
     display: block;
@@ -478,5 +496,26 @@ footer-column ul li a:hover {
   .subscribe {
     max-width: 120px;
     font-size: 0.9rem;
+  }
+  .beverage-icons {
+    gap: 1.5rem;
+  }
+  .beverage-icons img {
+    width: 30px;
+  }
+  .beverage-names {
+    font-size: 0.8rem;
+  }
+  .beverage-icons li {
+    flex: 1 1 100px;
+  }
+}
+@media (max-width: 375px) {
+  .beverage-icons {
+    gap: 0.5rem; 
+  }
+
+  .beverage-icons i {
+    font-size: 1.8rem;
   }
 }

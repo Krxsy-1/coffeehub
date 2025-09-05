@@ -47,7 +47,7 @@ header nav {
     color: white;
 }
 .nav-links li a:hover {
-    color: #d2691e
+    color: rgb(213, 195, 171);
 }
 .hamburger {
     display: none;
@@ -56,10 +56,11 @@ header nav {
     color: wheat;
 }
 .hero-overlay {
-    background-image: url(./images/1.jpg);
+    background-image: url(./images/header3.png);
     height: 70vh;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 .hero-content {
     color: white;

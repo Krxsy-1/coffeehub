@@ -24,7 +24,7 @@ header nav {
 }
 .hero {
     background-color: rgb(213, 195, 171);
-    height: 85vh;
+    min-height: 85vh;
 }
 .nav-links {
     list-style: none;
@@ -57,7 +57,7 @@ header nav {
 }
 .hero-overlay {
     background-image: url(./images/header3.png);
-    height: 70vh;
+    min-height: 70vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -241,7 +241,7 @@ li:hover {
     padding: 2rem;
     text-align: left;
     color: rgb(79, 38, 38);
-    height: 50vh;
+    min-height: 50vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -344,7 +344,7 @@ li:hover {
     background-size: cover;
     background-position: center;
     color: wheat;
-    height: 50vh;
+    min-height: 50vh;
     justify-content: center;
     align-items: center;
     text-align: center;

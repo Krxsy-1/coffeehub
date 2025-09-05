@@ -7,10 +7,10 @@
     <link rel="stylesheet" href="styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playwrite+HU:wght@100..400&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playwrite+HU:wght@100..400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
 
     <title>Coffee</title>
 </head>
@@ -75,162 +75,235 @@
         </section>
     </header>
 
-
     <section class="specials">
-        <div class="fade-in">
-            <div class="special-coffees">
-                <h2 class="coffee-header">
-                    OUR SPECIAL COFFEE
-                </h2>
-                <div class="list">
-                    <div class="type">
-                        <li><img src="./images/lungocoffee.jpg" alt="Lungo Coffee" /></li>
-                        <p class="name">
-                            Lungo Coffee
-                        </p>
-                        <p class="description">
-                            A smooth extended espresso with extra water.
-                        </p>
-                        <div class="price-order">
-                            <p class="price">
-                                $4.50
-                            </p>
-                            <button class="order-button">
-                                Order Now
-                            </button>
-                        </div>
-                    </div>
-                    <div class="type">
-                        <li><img src="./images/dolgonacoffee.jpg" alt="Dalgona Coffee" /></li>
-                        <p class="name">
-                            Dalgona Coffee
-                        </p>
-                        <p class="description">
-                            Whipped coffee made using instant coffee
-                        </p>
-                        <div class="price-order">
-                            <p class="price">
-                                $4.50
-                            </p>
-                            <button class="order-button">
-                                Order Now
-                            </button>
-                        </div>
-                    </div>
-                    <div class="type">
-                        <li><img src="./images/icedcoffee.jpg" alt="Iced Coffee" /></li>
-                        <p class="name">
-                            Iced Coffee
-                        </p>
-                        <p class="description">
-                            Chilled coffee served over ice, with a drizzle of caramel.
-                        </p>
-                        <div class="price-order">
-                            <p class="price">
-                                $4.50
-                            </p>
-                            <button class="order-button">
-                                Order Now
-                            </button>
-                        </div>
-                    </div>
-                    <div class="type">
-                        <li><img src="./images/filtercoffee.jpg" alt="Filter Coffee" /></li>
-                        <p class="name">
-                            Filter Coffee
-                        </p>
-                        <p class="description">
-                            75% coffee and 25% chicory freshly roasted
-                        </p>
-                        <div class="price-order">
-                            <p class="price">
-                                $4.50
-                            </p>
-                            <button class="order-button">
-                                Order Now
-                            </button>
-                        </div>
-                    </div>
+  <div class="fade-in">
+    <div class="special-coffees">
+      <h2 class="coffee-header">OUR SPECIAL COFFEE</h2>
+
+      <div class="swiper coffeeSwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="type">
+              <img src="./images/lungocoffee.jpg" alt="Lungo Coffee" />
+              <p class="name">Lungo Coffee</p>
+              <p class="description">A smooth extended espresso with extra water.</p>
+              <div class="price-order">
+                <p class="price">$4.50</p>
+                <button class="order-button">Order Now</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="type">
+              <img src="./images/dolgonacoffee.jpg" alt="Dalgona Coffee" />
+              <p class="name">Dalgona Coffee</p>
+              <p class="description">Whipped coffee made using instant coffee</p>
+              <div class="price-order">
+                <p class="price">$4.50</p>
+                <button class="order-button">Order Now</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="type">
+              <img src="./images/icedcoffee.jpg" alt="Iced Coffee" />
+              <p class="name">Iced Coffee</p>
+              <p class="description">Chilled coffee served over ice, with a drizzle of caramel.</p>
+              <div class="price-order">
+                <p class="price">$4.50</p>
+                <button class="order-button">Order Now</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="type">
+              <img src="./images/filtercoffee.jpg" alt="Filter Coffee" />
+              <p class="name">Filter Coffee</p>
+              <p class="description">75% coffee and 25% chicory freshly roasted.</p>
+              <div class="price-order">
+                <p class="price">$4.50</p>
+                <button class="order-button">Order Now</button>
+              </div>
+            </div>
+          </div>
+        
+
+           <div class="swiper-slide">
+            <div class="type">
+                <img src="./images/affogato.jpg" alt="Affogato" />
+                <p class="name">Affogato Classique</p>
+                <p class="description">A scoop of vanilla ice cream drenched in hot espresso.</p>
+                <div class="price-order">
+                    <p class="price">$4.50</p>
+                    <button class="order-button">Order Now</button>
                 </div>
             </div>
+          </div>
 
-
-            <div class="special-desserts">
-                <div class="fade-in">
-                    <h2 class="dessert-header">
-                        OUR SPECIAL DESSERTS
-                    </h2>
-                    <div class="list">
-                        <div class="type">
-                            <li><img src="images/gulabjamun.jpg" alt="Gulab Jamun" /></li>
-                            <p class="name">
-                                Gulab Jamun
-                            </p>
-                            <p class="description">
-                                Made with milk, solids, sugar, rose water and cardamom
-                            </p>
-                            <div class="price-order">
-                                <p class="price">
-                                    $4.50
-                                </p>
-                                <button class="order-button">
-                                    Order Now
-                                </button>
-                            </div>
-                        </div>
-                        <div class="type">
-                            <li><img src="./images/chocolatetiramisu.jpg" alt="Chocolate Tiramisu" /></li>
-                            <p class="name">
-                                Chocolate Tiramisu
-                            </p>
-                            <p class="description">
-                                Made with layers of marscapone cream, chocolate.
-                            </p>
-                            <div class="price-order">
-                                <p class="price">
-                                    $4.50
-                                </p>
-                                <button class="order-button">
-                                    Order Now
-                                </button>
-                            </div>
-                        </div>
-                        <div class="type">
-                            <li><img src="./images/churros.jpg" alt="Churros" /></li>
-                            <p class="name">
-                                Churros
-                            </p>
-                            <p class="description">
-                                Fried-dough pastry, sprinkled with sugar and cinnamon
-                            </p>
-                            <div class="price-order">
-                                <p class="price">
-                                    $4.50
-                                </p>
-                                <button class="order-button">
-                                    Order Now
-                                </button>
-                            </div>
-                        </div>
-                        <div class="type">
-                            <li><img src="./images/lamingtons.jpg" alt="Australian Lamingtons" /></li>
-                            <p class="name">
-                                Australian Lamingtons
-                            </p>
-                            <p class="description">
-                                Sponge cake dipped in chocolate and coconut.
-                            </p>
-                            <div class="price-order">
-                                <p class="price">
-                                    $4.50
-                                </p>
-                                <button class="order-button">
-                                    Order Now
-                                </button>
-                            </div>
-                        </div>
-                    </div>
+          <div class="swiper-slide">
+            <div class="type">
+                <img src="./images/Cappuncino.jpg" alt="Cappucino" />
+                <p class="name">Cappucino</p>
+                <p class="description">Bold espresso softened by steamed milk and topped with airy foam.</p>
+                <div class="price-order">
+                    <p class="price">$4.50</p>
+                    <button class="order-button">Order Now</button>
                 </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="type">
+                <img src="./images/Latte.jpg" alt="Latte" />
+                <p class="name">Latte</p>
+                <p class="description">smooth espresso blended with steamed milk and topped with a light layer of foam.</p>
+                <div class="price-order">
+                    <p class="price">$4.50</p>
+                    <button class="order-button">Order Now</button>
+                </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="type">
+                <img src="./images/doppio.jpg" alt="Doppio" />
+                <p class="name">Doppio</p>
+                <p class="description">A double shot of espresso served straight up.</p>
+                <div class="price-order">
+                    <p class="price">$4.50</p>
+                    <button class="order-button">Order Now</button>
+                </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="type">
+                <img src="./images/americanno.jpg" alt="Americano" />
+                <p class="name">Americano</p>
+                <p class="description">A rich espresso mellowed with hot water.</p>
+                <div class="price-order">
+                    <p class="price">$4.50</p>
+                    <button class="order-button">Order Now</button>
+                </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="swiper-button-prev coffee-prev"></div>
+        <div class="swiper-button-next coffee-next"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="fade-in">
+    <div class="special-desserts">
+    <h2 class="dessert-header">OUR SPECIAL DESSERTS</h2>
+
+    <div class="swiper dessertSwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <div class="type">
+          <img src="images/gulabjamun.jpg" alt="Gulab Jamun" />
+          <p class="name">Gulab Jamun</p>
+          <p class="description">Made with milk, solids, sugar, rose water and cardamom</p>
+          <div class="price-order">
+            <p class="price">$4.50</p>
+            <button class="order-button">Order Now</button>
+          </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+            <div class="type">
+          <img src="images/chocolatetiramisu.jpg" alt="Chocolate Tiramisu" />
+          <p class="name">Chocolate Tiramisu</p>
+          <p class="description">Made with layers of mascarpone cream, chocolate.</p>
+          <div class="price-order">
+            <p class="price">$4.50</p>
+            <button class="order-button">Order Now</button>
+          </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+            <div class="type">
+          <img src="images/churros.jpg" alt="Churros" />
+          <p class="name">Churros</p>
+          <p class="description">Fried-dough pastry, sprinkled with sugar and cinnamon</p>
+          <div class="price-order">
+            <p class="price">$4.50</p>
+            <button class="order-button">Order Now</button>
+          </div>
+        </div>
+        </div>
+
+        <div class="swiper-slide">
+            <div class="type">
+          <img src="images/lamingtons.jpg" alt="Australian Lamingtons" />
+          <p class="name">Australian Lamingtons</p>
+          <p class="description">Sponge cake dipped in chocolate and coconut.</p>
+          <div class="price-order">
+            <p class="price">$4.50</p>
+            <button class="order-button">Order Now</button>
+          </div>
+        </div>
+        </div>
+
+        <div class="swiper-slide">
+            <div class="type">
+          <img src="images/profiteroles.jpg" alt="Profiteroles" />
+          <p class="name">Profiteroles</p>
+          <p class="description">Choux pastry puffs filled with ice cream, topped with chocolate drizzle.</p>
+          <div class="price-order">
+            <p class="price">$4.50</p>
+            <button class="order-button">Order Now</button>
+          </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+            <div class="type">
+          <img src="images/chocolateraspberrytart.jpg" alt="Chocolate Raspberry Tart" />
+          <p class="name">Chocolate Raspberry Tart</p>
+          <p class="description">Buttery chocolate crust, raspberry purée, and silky ganache.</p>
+          <div class="price-order">
+            <p class="price">$4.50</p>
+            <button class="order-button">Order Now</button>
+          </div>
+        </div>
+        </div>
+
+        <div class="swiper-slide">
+            <div class="type">
+          <img src="images/pecanrum.jpg" alt="Butter Pecan Cake" />
+          <p class="name">Butter Pecan Cake</p>
+          <p class="description">A rich, nutty, and irresistibly moist cake.</p>
+          <div class="price-order">
+            <p class="price">$4.50</p>
+            <button class="order-button">Order Now</button>
+          </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+            <div class="type">
+          <img src="images/napoleons.jpg" alt="Raspberry Cream Napoleons" />
+          <p class="name">Raspberry Cream Napoleons</p>
+          <p class="description">Crisp puff pastry, silky vanilla cream, fresh raspberries.</p>
+          <div class="price-order">
+            <p class="price">$4.50</p>
+            <button class="order-button">Order Now</button>
+          </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-button-next dessert-next"></div>
+      <div class="swiper-button-prev dessert-prev"></div>
+      </div>
     </section>
 
 
@@ -374,6 +447,7 @@
         </div>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>

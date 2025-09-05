@@ -14,3 +14,31 @@ const fadeElements = document.querySelectorAll('.fade-in');
 function toggleMenu() {
     document.querySelector(".nav-links").classList.toggle("active");
   }
+
+const coffeeSwiper = new Swiper('.coffeeSwiper', {
+    slidesPerView: 1,
+    spaceBetween: 20,
+    navigation: {
+      nextEl: '.coffee-next',
+      prevEl: '.coffee-prev',
+    },
+    breakpoints: {
+      768: {
+        slidesPerView: 3,
+      }
+    }
+  });
+
+  const dessertSwiper = new Swiper('.dessertSwiper', {
+    slidesPerView: 1,
+    spaceBetween: 20,
+    navigation: {
+      nextEl: '.dessert-next',
+      prevEl: '.dessert-prev',
+    },
+    breakpoints: {
+      768: {
+        slidesPerView: 3,
+      }
+    }
+  });

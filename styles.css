@@ -130,6 +130,11 @@ li:hover {
     padding: 1rem;
     align-items: stretch;
 }
+.description {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 0.5rem;
+}
 .coffee-header {
     text-align: center;
     font-size: 1.5rem;
@@ -192,6 +197,7 @@ li:hover {
     background-color: rgba(245, 212, 171, 0.44);
     border-radius: 10px;
     padding: 1rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     margin: 1rem;
     flex: 1 1 250px;
     display: flex;
@@ -201,6 +207,31 @@ li:hover {
 .type:hover {
     transform: scale(1.1);
     transition: transform 0.5s;
+}
+.swiper {
+    padding: 1rem;
+}
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+}
+.coffee-prev, .coffee-next {
+  color: #6f4e37;
+}
+.dessert-prev, .dessert-next {
+  color: #a0522d;
+}
+.coffee-prev::after,
+.coffee-next::after {
+  color: #6f4e37; /* deep coffee brown */
+  font-size: 20px; /* optional, resize arrow */
+}
+
+/* Dessert slider controls */
+.dessert-prev::after,
+.dessert-next::after {
+  color: #a0522d; /* warm dessert brown */
+  font-size: 20px; /* optional */
 }
 .banner {
     background-image: url(./images/coffeebeans4.png);

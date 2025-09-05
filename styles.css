@@ -308,9 +308,10 @@ li:hover {
     transform: translateY(0);
 }
 .banner-2 {
-    background-image: url(./images/coffeebeans3.jpg);
+    background-image: url(./images/allcoffee.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     color: wheat;
     height: 50vh;
     justify-content: center;
